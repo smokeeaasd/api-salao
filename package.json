@@ -1,0 +1,26 @@
+{
+  "name": "app-salao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "start": "tsx watch src\\server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.17.0",
+    "@types/node": "^20.12.7",
+    "nodemon": "^3.1.0",
+    "prisma": "^5.12.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "fastify": "^4.26.2",
+    "lodash": "^4.17.21"
+  }
+}
